@@ -1,19 +1,39 @@
 {
+  "name": "mxmkmarquette/wp-criticalcss",
+  "description": "Critical CSS for WordPress",
+  "type": "library",
+  "version": "0.8.x-dev",
   "require": {
     "jakeasmith/http_build_url": "^1",
-    "a5hleyrich/wp-background-processing": "dev-master",
-    "level-2/dice": "dev-v2.0-PHP5.4-5.5",
     "pcfreak30/wordpress-cache-store": "^0.1.1",
-    "composepress/core": "^0.3.0"
+    "composepress/core": "dev-master",
+    "woocommerce/action-scheduler": "^3.0",
+    "ext-dom": "*",
+    "ext-zlib": "*"
   },
   "autoload": {
     "psr-4": {
-      "": "lib/"
+      "WP_CriticalCSS\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
       "": "tests/"
     }
+  },
+  "time": "2020-02-17T05:17:53+00:00",
+  "support": {
+    "source": "https://github.com/mxmkmarquette/wp-criticalcss/tree/0.8"
+  },
+  "dist": {
+    "type": "zip",
+    "url": "https://api.github.com/repos/mxmkmarquette/wp-criticalcss/zipball/4ffe3f816a72db276780857453553fc6f4617e7b",
+    "reference": "4ffe3f816a72db276780857453553fc6f4617e7b",
+    "shasum": ""
+  },
+  "source": {
+    "type": "git",
+    "url": "https://github.com/mxmkmarquette/wp-criticalcss.git",
+    "reference": "4ffe3f816a72db276780857453553fc6f4617e7b"
   }
 }
